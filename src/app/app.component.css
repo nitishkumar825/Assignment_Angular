@@ -1,0 +1,75 @@
+  /* main {
+  text-align: center;
+  margin: 32px 50px;
+  padding: 100px;
+  border: #333;
+  font-size: 1.5em;
+    background-color: #ccc;
+    margin: 32px 50px;
+    padding: 80px;
+  }   */
+
+  main {
+    font-family: system-ui;
+    background: #F9F1F0;
+    color: white;
+    padding-top: 109px;
+    padding-bottom: 86px;
+    text-align: center;
+  }
+  button{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  }
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    bottom:827px;
+  }
+
+  /* Logo styles
+  .logo {
+    max-width: 100px;
+  } */
+
+  header img {
+    padding: 15px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+  header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    padding-top: 5px;
+
+  }
+
+  /* footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  } */
+  /* footer {
+    background-color: #333;
+    color: #fff;
+    border-top: 6px solid #1d1a18;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    z-index: 98;
+  }
+  footer p{
+    padding: 30px 0px;
+  } */
