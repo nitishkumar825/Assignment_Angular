@@ -1,0 +1,22 @@
+<div class="row"style="overflow: auto;">
+    <div class="col-12">
+        <table class="table table-bordered" >
+            <thead class="fixed">
+                <tr>
+                    <th>Country</th>
+                    <th>GeonameId</th>
+                    <th>Name</th>
+                    <th>Subcountry</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let c of worldCities$ |async">
+                    <td>{{c.country}}</td>
+                    <td>{{c.geonameid}}</td>
+                    <td>{{c.name}}</td>
+                    <td>{{c.subcountry}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

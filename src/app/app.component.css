@@ -11,31 +11,26 @@
 
   main {
     font-family: system-ui;
-    background: #F9F1F0;
-    color: white;
-    padding-top: 109px;
+    /* background: #F9F1F0; */
+    padding-top: 140px;
     padding-bottom: 86px;
     text-align: center;
+
   }
-  button{
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  }
+  
   header {
     background-color: #333;
     padding: 20px;
     color: #fff;
     bottom:827px;
+    padding-bottom: 120px;
   }
 
   /* Logo styles
   .logo {
     max-width: 100px;
   } */
-
+  
   header img {
     padding: 15px;
     float: left;
@@ -48,8 +43,8 @@
     position: relative;
     top: 18px;
     left: 10px;
-    padding-top: 5px;
-
+    padding-top: 8px;
+    text-align: center;
   }
 
   /* footer {
